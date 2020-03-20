@@ -4,7 +4,8 @@ $(document).ready(function(){
         $(".active").removeClass("active");
         $(this).addClass("active");
         var no = $(this).attr("no");
-        $("." + no)removeClass("view").addClass("hide");
+        // $("." + no)removeClass("view"); this throws an error for some reason.
+        $("." + no).addClass("hide");
         $(this).addClass("view");
     })
 });

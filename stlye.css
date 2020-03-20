@@ -55,6 +55,10 @@ Backgroun colors
 #b7a57a light gold
 #85754d metallic gold
  */
+ a:visited {
+    text-decoration: none; 
+    decoration: none; 
+}
 .bg-color-purp{
     background-color: #b7a57a !important;
     background-repeat: repeat;
